@@ -1,0 +1,27 @@
+.btn {
+  padding: 6px 8px;
+  border: 1px solid var(--rich-black);
+  color: var(--rich-black);
+  background-color: var(--white);
+
+  &:hover {
+    border-color: var(--rich-black);
+  }
+
+  &:hover:not(:disabled) {
+    color: var(--white);
+    background-color: var(--rich-black);
+    border-color: var(--rich-black);
+  }
+
+  &:disabled {
+    opacity: 0.8;
+    cursor: default;
+  }
+
+  &.isActive {
+    color: var(--white);
+    background-color: var(--rich-black);
+    border-color: var(--rich-black);
+  }
+}

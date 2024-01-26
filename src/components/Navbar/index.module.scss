@@ -1,0 +1,22 @@
+.header {
+  height: 40px;
+  padding: 20px;
+
+  .logoContainer {
+    width: 60px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .userInfo {
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--orange);
+  }
+}
